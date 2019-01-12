@@ -1,5 +1,6 @@
 class SubjectItemNote < ApplicationRecord
-  belongs_to :student
+  belongs_to :student, optional: true
+  belongs_to :subject_item, dependent: :delete
 
   validates :student_id, :subject_item_id, presence: true
 
