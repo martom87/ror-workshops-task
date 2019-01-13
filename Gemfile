@@ -3,8 +3,7 @@ ruby '2.5.1'
 
 gem 'activesupport'
 gem 'bootsnap', '>= 1.2', require: false
-gem 'bootstrap'
-gem 'bootstrap'
+gem 'bootstrap-sass'
 gem 'bootstrap_form'
 gem 'coffee-rails'
 gem 'decent_decoration'
