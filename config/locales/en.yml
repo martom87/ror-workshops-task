@@ -30,4 +30,44 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  navbar:
+    app_name: RoR Task
+    students: Students
+    teachers: Teachers
+    reports: Reports
+    reports_subjects: Subjects
+    logout: Logout
+    signin: Sign in
+    signup: Sign up
+    payments: Payments
+    subject_item_notes: "Subject Item Notes"
+  shared:
+    created: "%{resource} has been created!"
+    updated: "%{resource} has been updated!"
+    deleted: "%{resource} has been deleted!"
+    actions: actions
+    edit: edit
+    show: show
+    delete: delete
+    show_subject_items: show subjectssimp
+    back: Back
+    add_new_item: Add new one
+    subjects: subjects
+    currency: currency
+  student:
+    columns:
+      first_name: first name
+      last_name: last name
+      date: date
+      tuition_fee: tuition fee
+      sum: sum
+  teacher:
+    columns:
+      first_name: first name
+      last_name: last name
+      academic_title: academic title
+  subjects:
+    columns:
+      full_name: Full name
+      avg_notes: Notes average
+      birthdate: Birthdate
