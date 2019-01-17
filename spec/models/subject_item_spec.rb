@@ -6,8 +6,8 @@ RSpec.describe SubjectItem do
   end
 
   describe 'database columns' do
-    it { should have_db_column :title }
-    it { should have_db_column :teacher_id }
+    it { is_expected.to have_db_column :title }
+    it { is_expected.to have_db_column :teacher_id }
   end
 
   describe 'associations' do
