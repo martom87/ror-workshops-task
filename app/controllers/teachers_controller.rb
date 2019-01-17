@@ -1,6 +1,6 @@
 class TeachersController < ApplicationController
   expose(:teacher, attributes: :teacher_params)
-  expose(:teachers) { Teacher.all}
+  expose(:teachers) {Teacher.all}
   expose(:teacher_subject_items) {teacher.subject_items}
 
   def create
@@ -12,7 +12,7 @@ class TeachersController < ApplicationController
   end
 
   def update
-    if teacher.save
+    if teacher.update(teacher_params)
       redirect_to teacher_path(teacher), notice: I18n.t('shared.updated', resource: 'Teacher')
     else
       render :edit
