@@ -33,6 +33,7 @@ gem 'turbolinks'
 gem 'uglifier'
 
 
+
 group :development do
   gem 'better_errors'
   gem 'html2haml'

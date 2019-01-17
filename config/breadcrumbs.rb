@@ -1,4 +1,9 @@
 crumb :root do
+  link "Home", root_path
+end
+
+
+crumb :root do
   link 'RoR Workhops', root_path
 end
 
@@ -43,3 +48,6 @@ end
 crumb :subjects do
   link t('navbar.reports_subjects'), report_subjects_path
 end
+
+
+
